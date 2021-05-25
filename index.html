@@ -1,0 +1,115 @@
+<!---Cообщаем браузеру как обрабатывать эту страницу--->
+<!DOCTYPE html>
+<!---Обложка документа, указываем язык содержимого--->
+<html lang="en">
+<!---Заголовок страницы, контейнер для других важных данных (не отображается)--->
+<head>
+	<!---Заголовок страницы в браузере--->
+<title>My First project2</title>
+<!---Кодировка страницы--->
+<meta http equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+<!---Отображаемое тело страницы--->
+<body>
+	<header><img src="img/htmlcss.jpg" alt=""></header>
+	<nav><form action="#" method="post" enctype="multipart/form-data"></form>
+		<br>
+		<br>
+		<input placeholder="Логин"type="text" name="username" value="" />
+		<input type="password" name="userpass" value="Password" />
+	</nav>
+<h1>Начало верстки сайтов. Работа с текстом</h1>
+<br>
+<br>
+<ol><li><h3>Для начала нам нужно загрузить <a target="blank"href="https://sublimetext.com/">редактор кода</a> и настроить его как указано в этом <a target="_blank" href="https://youtu.be/xWhTf_o86Lg">видео</a></h3></li>
+<br>
+<br>
+<br>
+<li><h3>После того, как редактор кода установлен и настроен, нужно прописать сначала основные конфигурации:</h3>
+<br>
+<br><img src="img/2021-05-25 (2).png" alt=""></li>
+<br>
+<br>
+<br>
+<li><h3>Некоторые важные теги для работы с текстом и их применение:</h3>
+	<br>
+<p>header - это шапка страницы (на этой странице это самая верхняя картинка, но может быть и текст)</p>
+<p>nav - используется для организации навигации либо меню</p>
+<p>dev - блочный тэг середины страницы</p>
+<p>footer - подвал страницы, самая нижняя часть</p>
+<p>a - ссылка, если прописать a target="_blank" - ссылка, которая откроется в новом окне (именно с 
+помощью него ты можешь перейти по ссылке и загрузить редактор кода, а также посмотреть видео как 
+настроить его в первом пункте на этой странице; все ссылки в "подвале")</p>
+<p>img - изображение которая вставляется из папки img (картинка в шапке, подвале и т.д.)</p>
+<p>h1...6 - заголовки разной величины, блочный тэг, причем h1 может быть только один (самый первый текст)</p>
+<p>p - абзац, блочный тэг для текста</p>
+<p>span - линейный тэг для текста</p>
+<p>br - тэг переноса на следующую строку</p>
+<p>ol - нумерованный тэг, блочный (именно с помощью него написаны пункты на этой странице)</p>
+<p>ul - маркерованный тэг, блочный</p>
+<p>li - тэг с текстом внутри ul или ol (текст, который ты сейчас читаешь)</p></li>
+<br>
+<br>
+<br>
+<li><h3>А теперь пример как можно организавать формы:</h3></li></ol>
+<br>
+<p>form - оболочка формы, передача данных на сервер</p>
+<p>method - атрибут тэга form, отвечает за метод передачи данных:</p>
+<p>input - тэг приема данных от пользователей</p>
+<p>type - атрибут тэга input, бывает разных видов:</p>
+<p>text (name value) - для ввода текста,логина</p>
+<p>password (name value)- для ввода скрытых символов, например пароля (обе эти формы вы можете видеть под шапкой страницы)</p>
+<br><img src="img/7.png" alt="">
+<p>radio - для создания таких полей</p>
+<div><p>Ваш пол</p>
+	<p><input type="radio" name="choise" value="sex">мужской</p>
+	<p><input type="radio" name="choise" value="sex">женский</p>
+</div>
+<br><img src="img/1.png" alt="">
+<p>checkbox - для создания таких полей</p>
+<div><p>Сфера деятельности</p>
+	<p><input type="checkbox" name="choise2" value="work">Вы программист?</p>
+	<p><input type="checkbox" name="choise2" value="work">Вы фрилансер?</p>
+</div>
+<br><img src="img/2.png" alt="">
+<p>file - для создания поля для файла</p>
+<div><p>Поделитесь фотографией</p>
+	<input type="file">
+</div>
+<br><img src="img/3.png" alt="">
+<p>textarea - для создания поля для ввода текста</p>
+<div><p>Расскажите о себе:</p>
+	<textarea name="text" cols="30" rows="10"></textarea>
+</div>
+<br><img src="img/4.png" alt="">
+<p>select c полем выбора опций из выпадающего меню с помощью нескольких тэгов option</p>
+<div>
+	<p>Ваш любимый цвет</p>
+	<select name="color" id="">
+		<option value="Black">Черный</option>
+		<option value="Blue">Синий</option>
+		<option value="Green">Зеленый</option>
+		<option value="Red">Красный</option>
+		<option value="Yellow">Желтый</option>
+	</select>
+</div>
+<br><img src="img/5.png" alt="">
+<p>button с type submit/reset - кнопки отправить/очистить</p>
+<div>
+	<button type="submit">Отправить</button>
+	<button type="reset">Очистить</button>
+</div>
+<br><img src="img/6.png" alt="">
+<br>
+<br>
+<br>
+<br>
+<footer>
+	<a target="_blank" href="https://vk.com/"><img src="img/vk.png" alt=""></a>
+	<a target="_blank" href="https://www.instagram.com/?hl=ru"><img src="img/insta.jpg" alt=""></a>
+	<a target="_blank" href="https://www.facebook.com/"><img src="img/fb.png" alt=""></a>
+	<a target="_blank" href="https://twitter.com/?lang=ru"><img src="img/twitter.png" alt=""></a>
+	<a target="_blank" href="https://ru.linkedin.com/"><img src="img/in.jpg" alt=""></a>
+	<a target="_blank" href="https://discord.com/"><img src="img/discord.jpg" alt=""></a></footer>
+</body>
+</html>
